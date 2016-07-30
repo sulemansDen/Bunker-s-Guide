@@ -16,6 +16,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 public class WelcomeActivity extends AppCompatActivity {
@@ -27,7 +28,7 @@ public class WelcomeActivity extends AppCompatActivity {
     private int[] layouts;
     private Button btnSkip, btnNext, btnPrev;
     private PreferenceManager prefManager;
-
+    RelativeLayout dummyView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -51,7 +52,14 @@ public class WelcomeActivity extends AppCompatActivity {
         btnSkip = (Button) findViewById(R.id.btn_skip);
         btnNext = (Button) findViewById(R.id.btn_next);
         btnPrev = (Button) findViewById(R.id.btn_prev);
+        dummyView = (RelativeLayout) findViewById(R.id.dummyView);
 
+        dummyView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                //Just leave this empty
+            }
+        });
         // layouts of all welcome sliders
         // add few more layouts if you want
         layouts = new int[]{

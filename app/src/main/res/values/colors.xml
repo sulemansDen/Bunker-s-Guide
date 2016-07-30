@@ -11,13 +11,13 @@
     <color name="bg_screen4">#FA8072</color>
 
     <!-- dots inactive colors -->
-    <color name="dot_dark_screen1">#2278d4</color>
+    <color name="dot_dark_screen1">#B0C4DE</color>
     <color name="dot_dark_screen2">#14a895</color>
     <color name="dot_dark_screen3">#476A34</color>
     <color name="dot_dark_screen4">#E9967A</color>
 
     <!-- dots active colors -->
-    <color name="dot_light_screen1">#93c6fd</color>
+    <color name="dot_light_screen1">#87CEEB</color>
     <color name="dot_light_screen2">#8cf9eb</color>
     <color name="dot_light_screen3">#5DFC0A</color>
     <color name="dot_light_screen4">#FFA07A</color>
