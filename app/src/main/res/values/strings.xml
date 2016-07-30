@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bunker\'s Guide</string>
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT &gt;</string>
+    <string name="previous">&lt; PREV</string>
+
+    <string name="skip">SKIP</string>
+    <string name="start">"I'M READY >   " </string>
+
+    <string name="slide_1_title">Hello</string>
+    <string name="slide_1_desc">We college students have a habit of misplacing things, including our class bunk records. Bunkers-Guide solve this problem.</string>
+
+    <string name="slide_2_title">Oh, Wait</string>
+    <string name="slide_2_desc">If "bunk" sounds alien to you,its a school slang used for skipping (not attending) a class</string>
+
+    <string name="slide_3_title">Bunky</string>
+    <string name="slide_3_desc">This is your bunk advisor, or in short Bunky. He will keep an eye on your bunks and advise whenever necessary</string>
+
+    <string name="slide_4_title">Ding Dong</string>
+    <string name="slide_4_desc">Lastly, to ensure that you never forget to record bunks, Bunkers-Guide will send you daily notifications. This is fully customizable.</string>
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
