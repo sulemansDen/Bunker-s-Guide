@@ -13,23 +13,45 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_marginTop="80dp"
-            android:layout_weight="0.35"
+            android:layout_weight="0.10"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:drawableLeft="@drawable/bunkl"
+                android:drawablePadding="10dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="15dp"
+                android:text="Bunker's Guide"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:typeface="normal" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.30"
             android:background="#ffd0f0c8"
             android:orientation="vertical">
 
             <ImageView
-                android:layout_width="fill_parent"
+                android:layout_width="200dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
+                android:layout_gravity="center"
                 android:src="@drawable/tour_budvisor_face" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.65"
+            android:layout_weight="0.60"
             android:orientation="vertical">
 
             <TextView
@@ -40,7 +62,8 @@
                 android:text="@string/slide_3_title"
                 android:textColor="@android:color/white"
                 android:textSize="@dimen/slide_title"
-                android:textStyle="italic|bold" />
+                android:textStyle="italic|bold"
+                android:typeface="normal" />
 
             <TextView
                 android:layout_width="match_parent"
