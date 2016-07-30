@@ -13,7 +13,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.10"
+            android:layout_weight="0.11"
             android:orientation="vertical">
 
             <TextView
@@ -25,6 +25,7 @@
                 android:drawablePadding="10dp"
                 android:gravity="center_vertical"
                 android:paddingLeft="15dp"
+                android:paddingTop="4dp"
                 android:text="Bunker's Guide"
                 android:textColor="#FFF"
                 android:textSize="18sp"
@@ -42,9 +43,9 @@
             <ImageView
                 android:layout_width="200dp"
                 android:layout_height="match_parent"
+                android:layout_gravity="center"
                 android:layout_marginBottom="5dp"
                 android:layout_marginTop="5dp"
-                android:layout_gravity="center"
                 android:src="@drawable/tour_budvisor_face" />
         </LinearLayout>
 
